@@ -1,0 +1,57 @@
+{
+  "name": "data-surveillance-laws",
+  "title": "Surveillance Laws",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "surveillance-laws",
+      "path": "surveillance-laws.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 432,
+      "schema": {
+        "fields": [
+          {
+            "name": "title",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "municipality",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "reference",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": "",
+  "repository": "git://github.com/digitalfreedom/data-surveillance-laws.git"
+}
